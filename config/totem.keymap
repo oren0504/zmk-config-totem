@@ -139,10 +139,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-       &kp TAB       &mkp LCLK       &kp UP_ARROW    &mkp RCLK         &msc SCRL_UP        &kp CARET     &kp AMPS        &kp RA(U)   &kp SQT     &kp DQT
-       &kp CAPSLOCK  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW   &msc SCRL_DOWN      &kp C_MUTE    &kp LS(RA(N4))  &kp RA(N5)  &kp RA(N4)  &kp RA(O)
-&to 0  &kp ESCAPE    &kp RA(F19)     &to 1           &msc SCRL_LEFT    &msc SCRL_RIGHT     &kp C_VOL_DN  &kp C_VOL_UP    &kp C_PREV  &kp C_NEXT  &kp BSLH   &ext_power EP_TOG
-                                     &kp BACKSPACE   &kp LEFT_CONTROL  &kp LEFT_COMMAND    &to 0         &to 6           &to 5
+       &kp TAB       &mkp LCLK       &kp UP_ARROW    &mkp RCLK         &msc SCRL_UP        &kp LG(LS(NUMBER_4))  &kp LG(LS(NUMBER_5))  &kp LC(UP_ARROW)    &kp C_SLEEP_MODE    &kp LANGUAGE_2
+       &kp CAPSLOCK  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW   &msc SCRL_DOWN      &kp C_BRIGHTNESS_INC  &kp C_BRIGHTNESS_DEC  &kp LC(DOWN_ARROW)  &kp LC(LEFT_ARROW)  &kp LC(RIGHT_ARROW)
+&to 0  &kp ESCAPE    &kp LEFT_SHIFT  &to 1           &msc SCRL_LEFT    &msc SCRL_RIGHT     &kp C_VOL_DN          &kp C_VOL_UP          &kp C_AC_HOME       &kp ENTER           &kp SPACE            &ext_power EP_TOG
+                                     &kp BACKSPACE   &kp LEFT_CONTROL  &kp LEFT_COMMAND    &to 0                 &to 6                 &to 5
             >;
         };
 
@@ -165,10 +165,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-       &kp TAB       &bt BT_CLR  &out OUT_TOG   &trans            &trans              &trans  &kp F7  &kp F8  &kp F9  &kp F12
-       &kp CAPSLOCK  &bt BT_NXT  &trans         &trans            &trans              &trans  &kp F4  &kp F5  &kp F6  &kp F11
-&to 0  &kp ESCAPE    &bt BT_PRV  &trans         &trans            &trans              &trans  &kp F1  &kp F2  &kp F3  &kp F10  &trans
-                                 &kp BACKSPACE  &kp LEFT_CONTROL  &kp LEFT_COMMAND    &to 0   &to 6   &to 5
+       &kp TAB       &bt BT_CLR  &out OUT_TOG   &trans            &kp PRINTSCREEN     &kp RG(V)  &kp F7  &kp F8  &kp F9  &kp F12
+       &kp CAPSLOCK  &bt BT_NXT  &trans         &kp LG(F)         &kp LG(A)           &kp RG(X)  &kp F4  &kp F5  &kp F6  &kp F11
+&to 0  &kp ESCAPE    &bt BT_PRV  &kp LC(V)      &kp LC(X)         &kp LC(C)           &kp RG(C)  &kp F1  &kp F2  &kp F3  &kp F10  &trans
+                                 &kp BACKSPACE  &kp LEFT_CONTROL  &kp LEFT_COMMAND    &to 0      &to 6   &to 5
             >;
         };
 
