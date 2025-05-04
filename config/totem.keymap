@@ -217,10 +217,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-       &kp PERCENT  &kp EQUAL     &kp LS(HOME)   &kp LS(O)                   &mt RIGHT_BRACE LEFT_BRACE                &mt UNDERSCORE DOT  &to 1         &to 2          &to 3         &to 4
-       &kp MINUS    &kp ASTERISK  &kp LC(F17)    &to 6                       &mt RIGHT_BRACKET LEFT_BRACKET            &kp NUMBER_0        &kp NUMBER_1  &kp NUMBER_2   &kp NUMBER_3  &kp NUMBER_4
-&to 0  &kp SLASH    &kp PLUS      &kp LC(F16)    &mt GREATER_THAN LESS_THAN  &mt RIGHT_PARENTHESIS LEFT_PARENTHESIS    &kp NUMBER_5        &kp NUMBER_6  &kp NUMBER_7   &kp NUMBER_8  &kp NUMBER_9  &kp RIGHT_SHIFT
-                                  &kp BACKSPACE  &kp LEFT_CONTROL            &kp LEFT_COMMAND                          &kp RETURN          &kp SPACE     &kp RIGHT_ALT
+       &kp PERCENT           &kp EQUAL     &kp EXCLAMATION     &mt SINGLE_QUOTE DOUBLE_QUOTES  &mt RIGHT_BRACE LEFT_BRACE                &mt COMMA DOT  &to 1         &to 2          &to 3         &to 4
+       &mt UNDERSCORE MINUS  &kp ASTERISK  &kp AMPERSAND       &to 6                           &mt RIGHT_BRACKET LEFT_BRACKET            &kp NUMBER_0   &kp NUMBER_1  &kp NUMBER_2   &kp NUMBER_3  &kp NUMBER_4
+&to 0  &kp SLASH             &kp PLUS      &mt BACKSLASH PIPE  &mt GREATER_THAN LESS_THAN      &mt RIGHT_PARENTHESIS LEFT_PARENTHESIS    &kp NUMBER_5   &kp NUMBER_6  &kp NUMBER_7   &kp NUMBER_8  &kp NUMBER_9  &kp RIGHT_SHIFT
+                                           &kp BACKSPACE       &kp LEFT_CONTROL                &kp LEFT_COMMAND                          &kp RETURN     &kp SPACE     &kp RIGHT_ALT
             >;
         };
 
