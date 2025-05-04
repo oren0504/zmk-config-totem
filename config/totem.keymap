@@ -111,10 +111,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-       &kp ESC    &bt BT_CLR  &kp UP         &kp EQUAL  &mt RIGHT_BRACE LEFT_BRACE        &kp TILDE             &kp SLASH              &kp DOT     &kp SINGLE_QUOTE   &kp QUESTION
-       &kp LSHFT  &kp LEFT    &kp DOWN       &kp RIGHT  &mt RIGHT_BRACKET LEFT_BRACKET    &kp HASH              &kp AT_SIGN            &kp DOLLAR  &kp DOUBLE_QUOTES  &kp ASTERISK
-&to 0  &kp DEL    &kp PG_UP   &kp CAPS       &kp PG_DN  &mt GREATER_THAN LESS_THAN        &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS   &kp UNDERSCORE     &kp PIPE      &kp NON_US_BACKSLASH
-                              &kp BACKSPACE  &trans     &kp LG(TAB)                       &to 0                 &mo 6                  &to 5
+       &kp ESC    &bt BT_CLR  &kp UP         &kp ASTERISK      &mt RIGHT_BRACE LEFT_BRACE        &kp TILDE             &kp SLASH              &kp DOT     &kp SINGLE_QUOTE   &kp QUESTION
+       &kp LSHFT  &kp LEFT    &kp DOWN       &kp RIGHT         &mt RIGHT_BRACKET LEFT_BRACKET    &kp HASH              &kp AT_SIGN            &kp DOLLAR  &kp DOUBLE_QUOTES  &kp EQUAL
+&to 0  &kp DEL    &kp PG_UP   &kp CAPS       &kp PG_DN         &mt GREATER_THAN LESS_THAN        &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS   &kp UNDERSCORE     &kp PIPE      &kp NON_US_BACKSLASH
+                              &kp BACKSPACE  &kp LEFT_CONTROL  &kp LEFT_COMMAND                  &to 0                 &mo 6                  &to 5
             >;
         };
 
@@ -215,10 +215,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &kp PERCENT  &kp EQUAL     &kp LS(HOME)   &kp LS(O)                   &mt RIGHT_BRACE LEFT_BRACE                &mt CARET UNDERSCORE  &to 1         &to 2         &to 3         &to 4
-        &kp MINUS    &kp ASTERISK  &kp LC(F17)    &kp LS(RIGHT)               &mt RIGHT_BRACKET LEFT_BRACKET            &kp NUMBER_0          &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4
-&trans  &kp SLASH    &kp PLUS      &kp LC(F16)    &kp LS(V)                   &mt RIGHT_PARENTHESIS LEFT_PARENTHESIS    &kp DOT               &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9
-                                   &kp BACKSPACE  &mt GREATER_THAN LESS_THAN  &kp LG(TAB)                               &to 0                 &to 6         &to 5
+        &kp PERCENT  &kp EQUAL     &kp LS(HOME)   &kp LS(O)         &mt RIGHT_BRACE LEFT_BRACE                &mt UNDERSCORE DOT  &to 1         &to 2          &to 3         &to 4
+        &kp MINUS    &kp ASTERISK  &kp LC(F17)    &kp LS(RIGHT)     &mt RIGHT_BRACKET LEFT_BRACKET            &kp NUMBER_0        &kp NUMBER_1  &kp NUMBER_2   &kp NUMBER_3  &kp NUMBER_4
+&trans  &kp SLASH    &kp PLUS      &kp LC(F16)    &kp LS(V)         &mt RIGHT_PARENTHESIS LEFT_PARENTHESIS    &kp NUMBER_5        &kp NUMBER_6  &kp NUMBER_7   &kp NUMBER_8  &kp NUMBER_9  &kp RIGHT_SHIFT
+                                   &kp BACKSPACE  &kp LEFT_CONTROL  &kp LEFT_COMMAND                          &kp RETURN          &kp SPACE     &kp RIGHT_ALT
             >;
         };
 
