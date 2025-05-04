@@ -87,10 +87,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-       &kp Q  &kp W  &kp E          &kp R             &kp T       &kp Y    &kp U      &kp I          &kp O                &kp P
-       &kp A  &kp S  &kp D          &kp F             &kp G       &kp H    &kp J      &kp K          &kp L                &mt COLON SEMI
-&to 5  &kp Z  &kp X  &kp C          &kp V             &kp B       &kp N    &kp M      &kp COMMA      &mt QUESTION PERIOD  &mt NON_US_BACKSLASH FSLH  &kp RIGHT_SHIFT
-                     &kp BACKSPACE  &kp LEFT_CONTROL  &kp LGUI    &kp RET  &kp SPACE  &kp RIGHT_ALT
+       &mt TAB Q  &mt EXCLAMATION W  &mt AT_SIGN E  &mt DOUBLE_QUOTES R  &mt LEFT_BRACE T          &kp Y    &kp U      &kp I          &kp O                &kp P
+       &kp A      &kp S              &kp D          &mt SINGLE_QUOTE F   &mt LEFT_BRACKET G        &kp H    &kp J      &kp K          &kp L                &mt COLON SEMI
+&mo 5  &kp Z      &kp X              &kp C          &mt LESS_THAN V      &mt LEFT_PARENTHESIS B    &kp N    &kp M      &kp COMMA      &mt QUESTION PERIOD  &mt NON_US_BACKSLASH FSLH  &kp RIGHT_SHIFT
+                                     &kp BACKSPACE  &kp LEFT_CONTROL     &kp LGUI                  &kp RET  &kp SPACE  &kp RIGHT_ALT
             >;
         };
 
