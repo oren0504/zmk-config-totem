@@ -112,10 +112,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-       &kp ESC    &mkp LCLK  &kp UP         &mkp RCLK         &mt RIGHT_BRACE LEFT_BRACE        &kp TILDE             &kp SLASH              &kp DOT     &kp SINGLE_QUOTE   &kp QUESTION
-       &kp LSHFT  &kp LEFT   &kp DOWN       &kp RIGHT         &mt RIGHT_BRACKET LEFT_BRACKET    &kp HASH              &kp AT_SIGN            &kp DOLLAR  &kp DOUBLE_QUOTES  &kp EQUAL
-&to 0  &kp DEL    &kp PG_UP  &to 2          &kp PG_DN         &mt GREATER_THAN LESS_THAN        &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS   &kp UNDERSCORE     &kp PIPE      &kp NON_US_BACKSLASH
-                             &kp BACKSPACE  &kp LEFT_CONTROL  &kp LEFT_COMMAND                  &to 0                 &mo 6                  &to 5
+       &kp TAB       &mkp LCLK  &kp UP         &mkp RCLK         &mt RIGHT_BRACE LEFT_BRACE        &kp TILDE             &kp SLASH              &kp DOT     &kp SINGLE_QUOTE   &kp QUESTION
+       &kp CAPSLOCK  &kp LEFT   &kp DOWN       &kp RIGHT         &mt RIGHT_BRACKET LEFT_BRACKET    &kp HASH              &kp AT_SIGN            &kp DOLLAR  &kp DOUBLE_QUOTES  &kp EQUAL
+&to 0  &kp DEL       &kp PG_UP  &to 2          &kp PG_DN         &mt GREATER_THAN LESS_THAN        &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS   &kp UNDERSCORE     &kp PIPE      &kp NON_US_BACKSLASH
+                                &kp BACKSPACE  &kp LEFT_CONTROL  &kp LEFT_COMMAND                  &to 0                 &mo 6                  &to 5
             >;
         };
 
@@ -138,10 +138,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-       &kp EXCL     &mkp LCLK       &kp UP_ARROW    &mkp RCLK        &kp PRCNT      &kp CARET     &kp AMPS        &kp RA(U)   &kp SQT     &kp DQT
-       &kp RA(A)    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans         &kp C_MUTE    &kp LS(RA(N4))  &kp RA(N5)  &kp RA(N4)  &kp RA(O)
-&to 0  &kp RA(F18)  &kp RA(F19)     &to 1           &trans           &trans         &kp C_VOL_DN  &kp C_VOL_UP    &kp C_PREV  &kp C_NEXT  &kp BSLH   &trans
-                                    &trans          &gif             &kp LG(TAB)    &to 0         &to 6           &to 5
+       &kp TAB       &mkp LCLK       &kp UP_ARROW    &mkp RCLK         &msc SCRL_UP        &kp CARET     &kp AMPS        &kp RA(U)   &kp SQT     &kp DQT
+       &kp CAPSLOCK  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW   &msc SCRL_DOWN      &kp C_MUTE    &kp LS(RA(N4))  &kp RA(N5)  &kp RA(N4)  &kp RA(O)
+&to 0  &kp ESCAPE    &kp RA(F19)     &to 1           &msc SCRL_LEFT    &msc SCRL_RIGHT     &kp C_VOL_DN  &kp C_VOL_UP    &kp C_PREV  &kp C_NEXT  &kp BSLH   &trans
+                                     &kp BACKSPACE   &kp LEFT_CONTROL  &kp LEFT_COMMAND    &to 0         &to 6           &to 5
             >;
         };
 
